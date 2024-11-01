@@ -51,7 +51,7 @@ const portfolio = [
     name: "One Access",
     description:
       "Developed a Decentralized Identity System with Biometric Authentication, emphasizing user privacy and digital anonymity.",
-    image: "src/assets/covid.png", // Replace with the correct image path
+    image: devnotes, // Replace with the correct image path
     technologies: "Backend: Python, Docker, MongoDB; Frontend: HTML, CSS; Blockchain: Tcore, Blockchain",
     link: "https://github.com/Vishal18122002/One-Access", // Add your project link
   },
@@ -59,7 +59,7 @@ const portfolio = [
     name: "Cyber Attack Prediction",
     description:
       "Created a deep learning model that predicts cyber attack cases and provides a graphical forecast for the next ten years.",
-    image: "src/assets/cyber.png", // Replace with the correct image path
+    image: algorithms , // Replace with the correct image path
     technologies: "Machine Learning: Random Forest, Python, Flask, Deep Learning; Frontend: HTML, CSS;",
     link: "https://github.com/Vishal18122002/Cyber-attack-prediction-using-ANN", // Add your project link
   },
@@ -67,7 +67,7 @@ const portfolio = [
     name: "Advanced Covid-19 Prediction",
     description:
       "Utilized CNN algorithms to detect Covid-19 in lung X-rays with 92% accuracy.",
-    image: "src/assets/covid.png", // Replace with the correct image path
+    image: algorithms , // Replace with the correct image path
     technologies: "Machine Learning: Flask, Python, Deep Learning, CNN; Frontend: HTML, CSS;",
     link: "https://github.com/Vishal18122002/Advance-covid-19-prediction", // Add your project link
   },
