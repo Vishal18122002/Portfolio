@@ -13,8 +13,7 @@ const Hero = ({ scrollContainer }) => {
         </div>
         <div className="flex-1 flex justify-start lg:justify-end mt-4 sm:mt-14 ml-8 xs:ml-[-4vh] sm:ml-[-20vh] md:ml-[-26vh] lg:mt-10 2xl:mt-0">
   <div className='font-bold text-[20px] sm:text-[30px] md:text-[36px] 2xl:text-[46px] sm:leading-[40px] md:leading-[50px] 2xl:leading-[60px] streaky-glow max-w-2xl 2xl:max-w-4xl text-gray-900 text-left'>
-    Shaping the digital canvas <br /> into immersive experiences <br /> that resonate and inspire.
-  </div>
+  Transforming digital <br/> landscapes into intelligent,<br/> secure realms where <br/> innovation meets resilience<br/> and data thrives  </div>
 </div>
 
 
