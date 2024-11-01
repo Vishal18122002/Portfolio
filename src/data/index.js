@@ -52,7 +52,7 @@ const portfolio = [
     description:
       "Developed a Decentralized Identity System with Biometric Authentication, emphasizing user privacy and digital anonymity.",
 <<<<<<< HEAD
-    image: "https://github.com/Vishal18122002/Portfolio/blob/cb891c67d0e9329ab105b60f1adb60988fd8983c/src/assets/one.png", // Replace with the correct image path
+    image: algorithms, // Replace with the correct image path
 =======
     image:"/src/data/one.png", // Replace with the correct image path
 >>>>>>> 37fa2dd (Your commit message here)
