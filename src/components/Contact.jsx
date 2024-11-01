@@ -83,9 +83,9 @@ const Contact = () => {
           <h4 className="text-white font-medium">Connect with me:</h4>
           <div className="mt-2 text-white">
             <a href="https://www.linkedin.com/in/vishalg1812/" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">LinkedIn</a>
-            <a href="https://leetcode.com/vishalg1812/" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">LeetCode</a>
+            <a href="https://leetcode.com/u/vishal1812--/" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">LeetCode</a>
             <a href="https://github.com/Vishal18122002" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">GitHub</a>
-            <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline">Resume</a>
+            <a href="https://drive.google.com/file/d/1Bd3qUHRHPo8t8I00vJVXMYIYVdr2Lg2M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline">Resume</a>
           </div>
         </div>
       </motion.div>
