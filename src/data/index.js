@@ -52,8 +52,6 @@ const portfolio = [
     description:
       "Developed a Decentralized Identity System with Biometric Authentication, emphasizing user privacy and digital anonymity.",
     image: devnotes, // Replace with the correct image path
-
-    image:"/src/data/one.png", // Replace with the correct image path
     technologies: "Backend: Python, Docker, MongoDB; Frontend: HTML, CSS; Blockchain: Tcore, Blockchain",
     link: "https://github.com/Vishal18122002/One-Access", // Add your project link
   },
