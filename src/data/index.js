@@ -1,7 +1,7 @@
 import {
   algorithms,
   devnotes,
-  oscs,
+  oscs,one,
 } from "../assets";
 
 export const navLinks = [
@@ -51,9 +51,9 @@ const portfolio = [
     name: "One Access",
     description:
       "Developed a Decentralized Identity System with Biometric Authentication, emphasizing user privacy and digital anonymity.",
-    image: "src/assets/one.png", // Replace with the correct image path
+    image: oscs, // Replace with the correct image path
     technologies: "Backend: Python, Docker, MongoDB; Frontend: HTML, CSS; Blockchain: Tcore, Blockchain",
-    link: "https://your-project-link.com/one-access", // Add your project link
+    link: "https://github.com/Vishal18122002/One-Access", // Add your project link
   },
   {
     name: "Cyber Attack Prediction",
@@ -61,7 +61,7 @@ const portfolio = [
       "Created a deep learning model that predicts cyber attack cases and provides a graphical forecast for the next ten years.",
     image: "src/assets/cyber.png", // Replace with the correct image path
     technologies: "Machine Learning: Random Forest, Python, Flask, Deep Learning; Frontend: HTML, CSS;",
-    link: "https://your-project-link.com/cyber-attack-prediction", // Add your project link
+    link: "https://github.com/Vishal18122002/Cyber-attack-prediction-using-ANN", // Add your project link
   },
   {
     name: "Advanced Covid-19 Prediction",
@@ -69,7 +69,7 @@ const portfolio = [
       "Utilized CNN algorithms to detect Covid-19 in lung X-rays with 92% accuracy.",
     image: "src/assets/covid.png", // Replace with the correct image path
     technologies: "Machine Learning: Flask, Python, Deep Learning, CNN; Frontend: HTML, CSS;",
-    link: "https://your-project-link.com/advanced-covid19-prediction", // Add your project link
+    link: "https://github.com/Vishal18122002/Advance-covid-19-prediction", // Add your project link
   },
   {
     name: "Edugen",
@@ -78,7 +78,7 @@ const portfolio = [
     image: oscs, // Add the correct path to your project image
     technologies: 
       "Frontend: React, JavaScript; Backend: Node.js, Express.js, MongoDB; Deployment: Responsive design for seamless experience across devices",
-    link: "https://your-project-link.com/edugen", // Add your project link
+    link: "https://github.com/Vishal18122002/Edugen", // Add your project link
   },
 ];
 
