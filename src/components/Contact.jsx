@@ -88,15 +88,25 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
         {/* Social Links Section */}
         <div className="mt-10">
           <h4 className="text-white font-medium">Connect with me:</h4>
-          <div className="mt-2 text-white">
-            <a href="https://www.linkedin.com/in/vishalg1812/" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">LinkedIn</a>
-            <a href="https://leetcode.com/vishalg1812/" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">LeetCode</a>
-            <a href="https://github.com/Vishal18122002" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline mr-4">GitHub</a>
-            <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer" className="no-underline hover:underline">Resume</a>
-          </div>
+          <ul className="list-disc pl-5 mt-2 text-white">
+            <li>
+              <a href="https://www.linkedin.com/in/vishalg1812/" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/vishalg1812/" target="_blank" rel="noopener noreferrer" className="underline">LeetCode</a>
+            </li>
+            <li>
+              <a href="https://github.com/Vishal18122002" target="_blank" rel="noopener noreferrer" className="underline">GitHub</a>
+            </li>
+            <li>
+              <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer" className="underline">Resume</a>
+            </li>
+          </ul>
+
         </div>
       </motion.div>
     </div>
