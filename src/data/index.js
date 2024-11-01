@@ -51,7 +51,8 @@ const portfolio = [
     name: "One Access",
     description:
       "Developed a Decentralized Identity System with Biometric Authentication, emphasizing user privacy and digital anonymity.",
-    image: algorithms, // Replace with the correct image path
+    image: "https://github.com/Vishal18122002/Portfolio/blob/cb891c67d0e9329ab105b60f1adb60988fd8983c/src/assets/one.png", // Replace with the correct image path
+
     image:"/src/data/one.png", // Replace with the correct image path
     technologies: "Backend: Python, Docker, MongoDB; Frontend: HTML, CSS; Blockchain: Tcore, Blockchain",
     link: "https://github.com/Vishal18122002/One-Access", // Add your project link
