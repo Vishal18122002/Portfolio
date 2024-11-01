@@ -21,9 +21,7 @@ const Contact = () => {
   }, [controls]);
 
   return (
-    <div
-      className="md:m-12 md:px-48 flex flex-col sm:flex-row gap-10 overflow-hidden"
-    >
+    <div className="md:m-12 md:px-48 flex flex-col sm:flex-row gap-10 overflow-hidden">
       <motion.div
         initial="hidden"
         animate={controls}
@@ -79,6 +77,25 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        {/* Social Links Section */}
+        <div className="mt-10">
+          <h4 className="text-white font-medium">Connect with me:</h4>
+          <ul className="list-disc pl-5 mt-2 text-white">
+            <li>
+              <a href="https://www.linkedin.com/in/vishalg1812/" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/vishalg1812/" target="_blank" rel="noopener noreferrer" className="underline">LeetCode</a>
+            </li>
+            <li>
+              <a href="https://github.com/Vishal18122002" target="_blank" rel="noopener noreferrer" className="underline">GitHub</a>
+            </li>
+            <li>
+              <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer" className="underline">Resume</a>
+            </li>
+          </ul>
+        </div>
       </motion.div>
     </div>
   );
