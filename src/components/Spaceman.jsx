@@ -60,7 +60,7 @@ const SpacemanCanvas = ({ scrollContainer }) => {
         setPosition([0, -0.6, 0]);
       } else {
         setScale([2,2,2]);
-        setPosition([0, -3, 0]);
+        setPosition([0, -1.5, 0]);
       }
     };
 
