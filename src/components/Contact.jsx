@@ -94,13 +94,13 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/vishalg1812/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             LinkedIn
           </a>
-          <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="https://leetcode.com/u/vishal1812--/" target="_blank" rel="noopener noreferrer" className="hover:underline">
             LeetCode
           </a>
           <a href="https://github.com/Vishal18122002" target="_blank" rel="noopener noreferrer" className="hover:underline">
             GitHub
           </a>
-          <a href="YOUR_RESUME_LINK" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="https://drive.google.com/file/d/1h7gSnOclBoTTJlRPogy_LRrV75KxOX4t/view?usp=share_link" target="_blank" rel="noopener noreferrer" className="hover:underline">
             Resume
           </a>
         </div>
