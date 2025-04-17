@@ -3,7 +3,7 @@ import {
   devnotes,
   oscs,
   one,
-  fiserv
+  fiserv,mst,cyber
 } from "../assets";
 
 export const navLinks = [
@@ -81,7 +81,7 @@ const portfolio = [
     name: "MediTranscribe – Medical Form Automation",
     description:
       "Python-based automation tool that transcribes doctor audio to structured hospital forms using NLP, SpeechRecognition, and Selenium.",
-    image: one,
+    image: mst,
     technologies:
       "SpeechRecognition, Python, Selenium, spaCy, NLTK, Flask, Pandas, JSON",
     link: "https://github.com/Vishal18122002/MediTranscribe", // (Add actual link if different)
@@ -116,7 +116,7 @@ const portfolio = [
     name: "Cyber Attack Prediction",
     description:
       "Designed a forecasting model to predict cyber attack patterns with a 10-year forecast visualization.",
-    image: algorithms,
+    image: cyber,
     technologies:
       "Python, Flask, Deep Learning, Random Forest, HTML, CSS",
     link: "https://github.com/Vishal18122002/Cyber-attack-prediction-using-ANN",
