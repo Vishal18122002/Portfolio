@@ -8,5 +8,7 @@ import oscs from "./oscs.png";
 
 import one from "./one.png"
 
-export { algorithms, close, devnotes, logo, menu, oscs,one };
+import fiserv from "./fiserv.png"
+
+export { algorithms, close, devnotes, logo, menu, oscs,one, fiserv };
 
