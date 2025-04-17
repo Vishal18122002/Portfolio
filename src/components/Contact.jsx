@@ -100,7 +100,7 @@ const Contact = () => {
           <a href="https://github.com/Vishal18122002" target="_blank" rel="noopener noreferrer" className="hover:underline">
             GitHub
           </a>
-          <a href="https://drive.google.com/file/d/1h7gSnOclBoTTJlRPogy_LRrV75KxOX4t/view?usp=share_link" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="https://drive.google.com/file/d/1mVO02z1Uf1zWlePcYUWxR-cYyLM-OFwY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:underline">
             Resume
           </a>
         </div>
