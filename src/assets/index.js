@@ -6,5 +6,7 @@ import algorithms from "./algorithms.png";
 import devnotes from "./devnotes.png";
 import oscs from "./oscs.png";
 
-export { algorithms, close, devnotes, logo, menu, oscs };
+import one from "./one.png"
+
+export { algorithms, close, devnotes, logo, menu, oscs,one };
 
