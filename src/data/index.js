@@ -1,7 +1,8 @@
 import {
   algorithms,
   devnotes,
-  oscs,one,
+  oscs,
+  one,
 } from "../assets";
 
 export const navLinks = [
@@ -25,23 +26,42 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "Bachelor of Technology in AI & Data Science",
-    company_name: "Rathinam Technical Campus",
-    date: "2020 - Expected Graduation: 2025",
+    title: "Software Development Engineer",
+    company_name: "MSTSoft",
+    date: "Feb 2025 – Present",
     details: [
-      "Studied core concepts of AI, machine learning, and cybersecurity.",
-      "Achieved a CGPA of 8.54, awarded for the highest CGPA in the department of AI & Data Science in 2022.",
-      "Actively participated in projects and hackathons, winning 1st place in Techtone23 Hackathon with a $15,000 prize.",
+      "Designed and developed AI-powered RPA systems integrating Deep Learning for image and voice data extraction with Selenium-based automation.",
+      "Developed MediTranscribe for medical audio-to-form automation and automated invoice processing and financial document analysis with custom RPA models.",
+      "Currently developing an AR application using Unity, .NET MAUI, and Azure APIs.",
     ],
   },
   {
-    title: "Data Analyst Intern",
-    company_name: "Spring Confectioneries",
-    date: "August 2023",
+    title: "Data Analyst",
+    company_name: "Crion Versity",
+    date: "July 2024 – Aug 2024",
     details: [
-      "Completed a career experience program focused on data analytics, shadowing a data analyst.",
-      "Participated in project execution, gaining insights into cross-functional teamwork.",
-      "Analyzed data to provide actionable insights, supporting decision-making processes.",
+      "Created real-time dashboards using Python and Power BI, enhancing decision-making speed by 20%.",
+      "Automated reporting workflows, saving over 50 hours per month.",
+      "Improved data integration efficiency by 15%.",
+    ],
+  },
+  {
+    title: "Project-Based Work",
+    company_name: "CloudDestination",
+    date: "Mar 2024 – July 2024",
+    details: [
+      "Led AI model development for cyber attack and Covid-19 prediction.",
+      "Applied deep learning techniques to real-world security and healthcare scenarios.",
+    ],
+  },
+  {
+    title: "Bachelor of Technology in AI & Data Science",
+    company_name: "Rathinam Technical Campus",
+    date: "2020 – Expected Graduation: 2025",
+    details: [
+      "Specialized in AI, cybersecurity, and system optimization.",
+      "CGPA of 8.54, with top departmental ranking in 2022.",
+      "1st place winner of Techtone23 Hackathon ($15,000 prize).",
     ],
   },
 ];
@@ -50,35 +70,55 @@ const portfolio = [
   {
     name: "One Access",
     description:
-      "Developed a Decentralized Identity System with Biometric Authentication, emphasizing user privacy and digital anonymity.",
-    image: devnotes, // Replace with the correct image path
-    technologies: "Backend: Python, Docker, MongoDB; Frontend: HTML, CSS; Blockchain: Tcore, Blockchain",
-    link: "https://github.com/Vishal18122002/One-Access", // Add your project link
+      "Developed a secure decentralized identity platform with biometric authentication. Integrated Blockchain and Docker for data privacy and scalability.",
+    image: devnotes,
+    technologies:
+      "Blockchain: Tcore; Backend: Python, Docker, MongoDB; Frontend: HTML, CSS",
+    link: "https://github.com/Vishal18122002/One-Access",
   },
   {
-    name: "Cyber Attack Prediction",
+    name: "MediTranscribe – Medical Form Automation",
     description:
-      "Created a deep learning model that predicts cyber attack cases and provides a graphical forecast for the next ten years.",
-    image: algorithms , // Replace with the correct image path
-    technologies: "Machine Learning: Random Forest, Python, Flask, Deep Learning; Frontend: HTML, CSS;",
-    link: "https://github.com/Vishal18122002/Cyber-attack-prediction-using-ANN", // Add your project link
+      "Python-based automation tool that transcribes doctor audio to structured hospital forms using NLP, SpeechRecognition, and Selenium.",
+    image: one,
+    technologies:
+      "SpeechRecognition, Python, Selenium, spaCy, NLTK, Flask, Pandas, JSON",
+    link: "https://github.com/Vishal18122002/MediTranscribe", // (Add actual link if different)
+  },
+  {
+  name: "Fiserv Change Rate Automation (RPA)",
+  description:
+    "Automates the SOFR bond rate update in the Fiserv system using OCR and RPA. Captures bond data, extracts the rate using intelligent parsing, and updates the rate interface automatically.",
+  image: devnotes, // Replace with a relevant image if available
+  technologies:
+    "Tools: Automation Anywhere, Selenium; OCR: Tesseract; Language: Python; Browser Automation",
+  link: "https://drive.google.com/file/d/1EIFWuNBUPLpu4jKs-fntAjTCln9mKyiG/view?usp=sharing", // Demo video link
+},
+  {
+    name: "Edugen – LMS Prototype",
+    description:
+      "A full-stack Learning Management System built using MERN stack with responsive design and course management functionality.",
+    image: oscs,
+    technologies:
+      "Frontend: React, Tailwind, JavaScript; Backend: Node.js, Express.js, MongoDB; TypeScript",
+    link: "https://github.com/Vishal18122002/Edugen",
   },
   {
     name: "Advanced Covid-19 Prediction",
     description:
-      "Utilized CNN algorithms to detect Covid-19 in lung X-rays with 92% accuracy.",
-    image: algorithms , // Replace with the correct image path
-    technologies: "Machine Learning: Flask, Python, Deep Learning, CNN; Frontend: HTML, CSS;",
-    link: "https://github.com/Vishal18122002/Advance-covid-19-prediction", // Add your project link
+      "Built a CNN-based deep learning model with 98% accuracy to detect Covid-19 from X-ray images.",
+    image: algorithms,
+    technologies: "Python, Flask, CNN, Deep Learning, Machine Learning",
+    link: "https://github.com/Vishal18122002/Advance-covid-19-prediction",
   },
   {
-    name: "Edugen",
-    description: 
-      "Edugen is a Learning Management System (LMS) prototype, similar to platforms like Coursera, developed using the MERN stack (MongoDB, Express.js, React, Node.js). The application allows users to add new courses, ensuring data persistence and management.",
-    image: oscs, // Add the correct path to your project image
-    technologies: 
-      "Frontend: React, JavaScript; Backend: Node.js, Express.js, MongoDB; Deployment: Responsive design for seamless experience across devices",
-    link: "https://github.com/Vishal18122002/Edugen", // Add your project link
+    name: "Cyber Attack Prediction",
+    description:
+      "Designed a forecasting model to predict cyber attack patterns with a 10-year forecast visualization.",
+    image: algorithms,
+    technologies:
+      "Python, Flask, Deep Learning, Random Forest, HTML, CSS",
+    link: "https://github.com/Vishal18122002/Cyber-attack-prediction-using-ANN",
   },
 ];
 
