@@ -3,6 +3,7 @@ import {
   devnotes,
   oscs,
   one,
+  fiserv
 } from "../assets";
 
 export const navLinks = [
