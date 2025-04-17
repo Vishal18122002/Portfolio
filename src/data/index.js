@@ -72,7 +72,7 @@ const portfolio = [
     name: "One Access",
     description:
       "Developed a secure decentralized identity platform with biometric authentication. Integrated Blockchain and Docker for data privacy and scalability.",
-    image: devnotes,
+    image: one,
     technologies:
       "Blockchain: Tcore; Backend: Python, Docker, MongoDB; Frontend: HTML, CSS",
     link: "https://github.com/Vishal18122002/One-Access",
@@ -90,7 +90,7 @@ const portfolio = [
   name: "Fiserv Change Rate Automation (RPA)",
   description:
     "Automates the SOFR bond rate update in the Fiserv system using OCR and RPA. Captures bond data, extracts the rate using intelligent parsing, and updates the rate interface automatically.",
-  image: devnotes, // Replace with a relevant image if available
+  image: fiserv, // Replace with a relevant image if available
   technologies:
     "Tools: Automation Anywhere, Selenium; OCR: Tesseract; Language: Python; Browser Automation",
   link: "https://drive.google.com/file/d/1EIFWuNBUPLpu4jKs-fntAjTCln9mKyiG/view?usp=sharing", // Demo video link
