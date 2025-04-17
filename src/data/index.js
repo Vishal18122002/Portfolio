@@ -81,7 +81,7 @@ const portfolio = [
     name: "MediTranscribe – Medical Form Automation",
     description:
       "Python-based automation tool that transcribes doctor audio to structured hospital forms using NLP, SpeechRecognition, and Selenium.",
-    image: mst,
+    image: algorithms,
     technologies:
       "SpeechRecognition, Python, Selenium, spaCy, NLTK, Flask, Pandas, JSON",
     link: "https://github.com/Vishal18122002/MediTranscribe", // (Add actual link if different)
